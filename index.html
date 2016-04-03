@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS 3</title>
+
+	<style>
+
+	span{
+		color: #48A9EA;
+		width: 500px;
+	}
+		.timer {
+			font-size: 50px;
+			text-align: center;
+		}
+		.timerBtns {text-align: center;}
+		button {
+border:none;
+			border-radius: 3px;
+			background: rgb(225,255,255);
+background: -moz-linear-gradient(top,  rgba(225,255,255,1) 0%, rgba(253,255,255,1) 0%, rgba(253,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(253,255,255,1) 0%,rgba(253,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%);
+background: linear-gradient(to bottom,  rgba(225,255,255,1) 0%,rgba(253,255,255,1) 0%,rgba(253,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 );
+			color: #48A9EA;
+			font-size: 30px;
+		}
+		.split {
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		
+	</style>
+</head>
+<body>
+	
+	<div class="timer">
+		<span class="hours js-hours">00</span>
+		<span class="minutes js-minutes">00</span>
+		<span class="seconds js-seconds">00</span>
+		<span class="miliseconds js-miliseconds">000</span>
+	</div>
+	<div class="timerBtns">
+		<button class="js-start">Start</button>	
+		<button class="js-split">Split</button>
+		<button class="js-reset">Reset</button>
+	</div>
+	
+	<div class="split"></div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
